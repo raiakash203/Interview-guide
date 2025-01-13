@@ -25,3 +25,14 @@ Perform data partitioning and sharding to distribute the data across multiple no
 Optimizing data processing scripts to run in parallel across multiple servers
 
 Monitoring performance metrics with the help of monitoring tools and making adjustments to scaling strategies
+
+## 3.How would you handle event duplication in an Event-Driven system?
+
+Event duplication can occur due to network retries, system failures, or bugs. Handling duplication ensures data consistency and reliability. Strategies include:
+
+Idempotency: Design event handlers to have the same effect when processing an event multiple times.
+Unique Event Identifiers: Assign unique identifiers to events and check for duplicates before processing.
+Event Sourcing: Store a log of all events to detect and ignore duplicates.
+Deduplication Queues: Filter out duplicates before they reach event handlers.
+Database Constraints: Use unique keys or indexes to prevent duplicate entries.
+
