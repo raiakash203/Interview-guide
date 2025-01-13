@@ -36,3 +36,9 @@ Event Sourcing: Store a log of all events to detect and ignore duplicates.
 Deduplication Queues: Filter out duplicates before they reach event handlers.
 Database Constraints: Use unique keys or indexes to prevent duplicate entries.
 
+## 4. What are the steps involved in a CloudFormation Solution?
+
+Create or use an existing CloudFormation template using JSON or YAML format.
+Save the code in an S3 bucket, which serves as a repository for the code.
+Use AWS CloudFormation to call the bucket and create a stack on your template. 
+CloudFormation reads the file and understands the services that are called, their order, the relationship between the services, and provisions the services one after the other.
