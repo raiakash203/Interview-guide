@@ -13,3 +13,15 @@ Collaborate with data source providers to understand the origins of potential is
 Design a robust data governance framework to maintain the high quality of data
 
 ## 2. How do you ensure the scalability of a data pipeline?
+
+Scalability in data pipelines is key for handling large volumes of data without compromising performance. 
+
+Here are some of the strategies experienced candidates should mention: 
+
+Using cloud services like AWS EMR or Google BigQuery, as they offer the ability to scale resources up or down based on demand. 
+
+Perform data partitioning and sharding to distribute the data across multiple nodes, reducing the load on any single node
+
+Optimizing data processing scripts to run in parallel across multiple servers
+
+Monitoring performance metrics with the help of monitoring tools and making adjustments to scaling strategies
