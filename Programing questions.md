@@ -9,6 +9,7 @@ Return s after reversing it.
 Input: s = "ab-cd!"
 Output: "dc-ba!"
 
+
 2.Write a SQL query to find all the products which only have critical accessories.
 product   accessory        critical(1,0)
 P1        Headphone         1
