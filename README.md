@@ -42,3 +42,19 @@ Create or use an existing CloudFormation template using JSON or YAML format.
 Save the code in an S3 bucket, which serves as a repository for the code.
 Use AWS CloudFormation to call the bucket and create a stack on your template. 
 CloudFormation reads the file and understands the services that are called, their order, the relationship between the services, and provisions the services one after the other.
+
+## 5. what are the limitation of lambda functions?
+
+
+## 6. how would you over come the scenario of cold start in case of lambda?
+
+
+## 7. what are different ways you can deploy your lambda functions
+
+
+## 8. How would you use a shared library in different lambda function wotuout duplicating the code in each functions
+
+## 9. suppose you have files in s3 bucket and you need to process them as they are uploaded in the bucket. How would you achieve this?
+
+
+## 10. And a follow up question in the above scenario what would happen if you get millions of files in one go in the bucket. how woild you handle the scenario
